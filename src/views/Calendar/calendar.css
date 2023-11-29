@@ -1,0 +1,18 @@
+tr{
+    border-color: #98d7e7 !important;
+    border-width: 1.3px !important;
+}
+
+td{
+    padding-bottom: 20px;
+    padding-left: 8px;
+}
+
+table{
+    width: 80% !important;
+    margin: auto !important;
+}
+
+td>i{
+    font-size: .7rem !important;
+}

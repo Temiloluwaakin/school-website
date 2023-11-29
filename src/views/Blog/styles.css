@@ -1,0 +1,146 @@
+.newsheader{
+    margin-top: 100px;
+    text-align: center;
+}
+.newsheader h1{font-weight: 1000;}
+.newsheader p{font-weight: 400;font-size: 25px;}
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!    header story   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/         
+.topstory{
+    display: flex;
+    margin: 50px 0px 0px 10px
+}
+.topstory a, .btmstory a{
+    color: black;
+}
+.topstory a:hover, .btmstory a:hover{
+    color: #3a879b;
+}
+.headernews{
+    margin: 0px 40px;
+}
+
+.headernews .ccc{
+    display: inline;
+    border-top: 5px solid #1A434D;
+}
+.btmstory{
+    display: flex;
+    margin: 0px 0px 0px 10px
+}
+@media (max-width: 768px) {
+    .topstory{
+        display: block;
+    }
+    .btmstory{
+        display: block;
+    }
+    .topstory .img, .btmstory .img{
+        width: 100%;
+    }
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!    news main   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/     
+.mainnewshead{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #d6d4d4;
+    align-items: center;
+    padding: 20px 40px;
+}
+.mainnewshead form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainnewshead input{
+    width: 300px;
+    height: 50px;
+    margin-right: 20px;
+}
+.mainnewshead select{
+    width: 300px;
+    height: 50px;
+    margin-right: 20px;
+}
+.mainnewshead button{
+    width: 100px;
+    height: 50px;
+    background: white;
+    border: none;
+    border-left: 5px solid #1A434D;
+}
+.mainnewshead button:hover{
+    color: white;
+    background: #1A434D;
+}
+@media (max-width: 768px) {
+    .mainnewshead{
+        display: block;
+    }
+    .mainnewshead form{
+        display: block;
+    }
+    .mainnewshead input{
+        margin: 20px auto;
+        width: 60%;
+    }
+    .mainnewshead select{
+        margin: 20px auto;
+        width: 60%;
+    }
+}
+
+
+.newscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+}
+.newscontainer article{
+    padding-bottom: 30px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 10px #cfd6d8;
+}
+.newscontainer article:hover{
+    box-shadow: 5px 5px 20px #cfd6d8;
+}
+.newscontainer article a{
+    color: black;
+}
+.newscontainer article .img:hover{
+    transform: scale(1.006);
+}
+.newscontainer article a:hover{
+    color: #2c98b3;
+}
+.newscontainer article h5{
+    width: 80%;
+    margin: 10px auto;
+}
+
+article .chgcl{
+    border-top: 5px solid #1A434D;
+}
+@media (max-width: 768px) {
+    .newscontainer{
+        display: block;
+    }
+    .newscontainer article{
+        padding-bottom: 30px;
+        width: 70%;
+        margin: 30px auto;
+    }
+    .newscontainer article .img{
+        width: 100%;
+    }
+}

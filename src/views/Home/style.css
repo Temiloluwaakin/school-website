@@ -1,0 +1,356 @@
+.homepage .carousel-caption {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.75);
+	z-index: 1;
+}
+
+.homepage .carousel-control-prev,
+.homepage .carousel-control-next {
+	width: 15%;
+}
+
+.homepage .carousel-control-prev-icon,
+.homepage .carousel-control-next-icon {
+	width: 3rem;
+	height: 3rem;
+	background-color: var(--primary);
+	border: 10px solid var(--primary);
+}
+@media(max-width:420px){
+	.homeheader{
+		margin-top: 60px;
+	}
+}
+
+
+
+
+
+/*							Classes opening page!!!!!!!!!!!!!!!!!!1!!!!!!*/
+.homepage .classesopeningpage{
+	margin: 70px auto;
+}
+.homepage .carousel-bg-img{
+    margin-bottom: 150px;
+}
+
+.homepage .img-fluid{
+    transition: all 3s ease;
+    cursor: pointer;
+}
+
+.homepage .img-fluid:hover{
+    transform: scale(1.2);
+    opacity: 0.6 !important;
+}
+.homepage .last{
+    position: relative;
+    left: 25%;
+    top: 25px;
+}
+.prep{
+	margin-top: 150px;
+}
+@media(max-width:767px){
+    .homepage .last{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+}
+
+
+
+
+/*							upcomimg event!!!!!!!!!!!!!!!!!!1!!!!!!*/
+.homepage .upcomingevent{
+	width: 90%;
+	margin: 20px auto;
+}
+.homepage .upcomingcontainer{
+	width: 100%;
+	display: flex;
+}
+.homepage .uphead.events{
+	display: block;
+}
+.homepage .uphead.events h2{
+	width: 40px;
+}
+.homepage .uphead button{
+	background: none;
+	width: 100px;
+	margin-top: 20px;
+	height: 40px;
+	border: 1px solid #b6b4b4;
+	border-left: 6px solid #1A434D;
+}
+.homepage .uphead button a:hover{
+	color: black;
+}
+.homepage .events{
+	width: 25%;
+	display: flex;
+	margin-right: 20px;
+	margin-bottom: 60px;
+}
+.homepage .events:hover{
+	box-shadow: 1px 0px #1A434D;
+}
+.homepage .uphead.events:hover{
+	box-shadow: none;
+}
+.homepage .events h2{
+	margin-right: 20px;
+	margin-top: 40px;
+	color: #1A434D;
+}
+.homepage .taggs{
+	display: inline;
+	border-top: 3px solid #1A434D;
+}
+@media (max-width: 768px) {
+	.homepage .upcomingcontainer{
+		display: block;
+		width: 100%;
+	}
+	.homepage .events{
+		width: 80%;
+		margin: 50px auto;
+	}
+	.homepage .uphead.events h2{
+		width: 100px;
+		margin: 10px auto;
+	}
+	.homepage .uphead.events{
+		display:block;
+	}
+	.homepage .uphead button{
+		width: 40%;
+		margin: 0px 100px;
+	}
+}
+
+
+
+
+
+/*							latest news!!!!!!!!!!!!!!!!!!1!!!!!!*/
+.homepage .latestnews{
+	width: 100%;
+	margin: 10px auto;
+}
+.homepage .latestnewscontainer{
+	width: 90%;
+	margin: 10px auto;
+	padding: 20px 0;
+}
+.homepage .newspreview{display: flex;}
+.news{
+	margin-right: 10px;
+}
+.homepage .newspreview a{
+	color: #1A434D;
+	font-size: larger;
+}
+.homepage .newspreview a:hover{
+	color: black;
+	font-weight: 800;
+}
+.homepage .latestnews button{
+	margin-top: 30px;
+	display: flex;
+	justify-content: right;
+}
+.homepage .latestnews .llk{
+	display: flex;
+	justify-content: right;
+}
+@media (max-width: 768px) {
+	.homepage .newspreview{display: block;}
+}
+
+
+
+/*							about enroll!!!!!!!!!!!!!!!!!!1!!!!!!*/
+.homepage .aboutenroll{
+	color: white;
+	width: 100%;
+	position: relative;
+	display: flex;
+}
+.homepage .aboutside{
+	width: 50%;
+	background: #1A434D;
+	text-align: center;
+}
+.homepage .aboutside p, .enrollside p{
+	width: 70%;
+	margin: 20px auto;
+	text-align: left;
+}
+.homepage .aboutside h2, .enrollside h2{
+	margin-top: 30px;
+}
+.homepage .enrollside{
+	width: 50%;
+	background: #28535e;
+	text-align: center;
+}
+.homepage .enrollside button, .aboutside button{
+	background: orange;
+	border: none;
+	width: 100px;
+	height: 50px;
+	color: white;
+	margin-bottom: 60px;
+}
+.homepage .aboutside a{color: white;}
+@media (max-width: 768px) {
+	.homepage .aboutenroll{
+		display: block;
+	}
+	.homepage .aboutside{
+		width: 100%;
+		padding-top: 20px;
+	}
+	.homepage .enrollside{
+		width: 100%;
+		padding-top: 20px;
+	}
+	.homepage .aboutside h2, .enrollside h2{
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+}
+
+
+
+
+
+
+
+/*							head teacher!!!!!!!!!!!!!!!!!!1!!!!!!*/
+.homepage .headteacher{
+	background: rgb(223, 221, 221);
+	width: 100%;
+	display: flex;
+}
+.homepage .headteacherpic{
+	width: 40%;
+	margin-left: 50px;
+	position: relative;
+}
+.homepage .headteacherpic img{
+	width: 70%;
+	margin-left: 50px;
+	margin-top: 60px;
+	position: relative;
+}
+.homepage .headteachermessage{
+	width: 70%;
+	margin: 10px auto;
+	position: relative;
+	padding: 30px 60px;
+	text-align: center;
+}
+.homepage .headteachermessage h3{
+	padding-bottom: 40px;
+	font-size: 25px;
+}
+.homepage .headteachermessage p{
+	text-align: left;
+	width: 90%;
+}
+.homepage .headteachermessage .lnk{
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 768px) {
+	.homepage .headteacher{
+		width: 100%;
+		margin: 0px auto;
+		display: block;
+	}
+	.homepage .headteachermessage{
+		width: 100%;
+		padding: 10px 10px;
+		margin-top: 0px;
+	}
+	.homepage .headteachermessage p{
+		width: 100%;
+	}
+	.homepage .headteacherpic{
+		margin: 10px auto;
+	}
+	.homepage .headteacherpic img{
+		width: 150px;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+
+/*							student life!!!!!!!!!!!!!!!!!!1!!!!!!*/
+.homepage .studcontainer{
+	width: 100%;
+	display: flex;
+}
+.homepage .sidepic{
+	width: 25%;
+}
+.homepage .sidepic img{
+	width: 100%;
+}
+.homepage .studlfpara{
+	width: 50%;
+	padding-top: 100px;
+	text-align: center;
+	margin: 30px 80px;
+}
+.homepage .studlfpara h2{
+	color: #1A434D;
+	font-style: italic;
+	font-weight: 1000;
+	padding-bottom: 20px;
+}
+@media (max-width: 768px) {
+	.homepage .studcontainer{
+		display: block;
+	}
+	.homepage .sidepic, .studlfpara{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.homepage .studlfpara{
+		padding-top: 30px;
+	}
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+	#header-carousel .homepage .carousel-item {
+		position: relative;
+		min-height: 450px;
+	}
+
+	#header-carousel .homepage .carousel-item img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}

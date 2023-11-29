@@ -1,0 +1,21 @@
+.border-bottom{
+    border-color: #123d48;
+    border-bottom-width: 1.5px !important;
+}
+
+.hover:hover{
+    color: #5199af !important;
+}
+
+.centerbtn{
+    position: relative;
+    left: 25%;
+}
+
+@media(max-width:575.5px){
+    .centerbtn{
+        position: relative;
+        left: 35%;
+    }
+    
+}

@@ -1,0 +1,99 @@
+.carousel-text{
+    padding-top: 50px;
+}
+.carousel-text .header-text{
+    width: 60%;
+	margin: 0 auto;
+}
+.contactsection{
+	height: 300px;
+}
+.incontsect{
+	background: white;
+	position: absolute;
+	top: 350px;
+	width: 72%;
+	left: 170px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 30px gray;
+}
+.insidecontact h3{
+	text-align: center;
+	width: 50%;
+	margin: 20px auto;
+}
+.frrm{
+	margin: 0 auto;
+}
+.subbtn{
+	margin: 10px 180px;
+	
+}
+.frrm label{
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+
+.contactinfo{
+    margin-top: 680px;
+    background: white;
+    width: 40%;
+    margin-left: 27%;
+    box-shadow: 2px 2px 30px gray;
+    padding-left: 30px;
+}
+.contactinfo h3{
+    padding-top: 20px;
+}
+.mb-2{
+    padding: 10px 0;
+}
+.square{
+    display: inline-flex;
+    padding: 5px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+    .carousel-text .header-text{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .incontsect{
+        left: 100px;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .header-text h2{
+        font-size: 30px;
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    .incontsect{
+        width: 80%;
+        left: 35px;
+    }
+    .form-group{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .subbtn{
+        margin-left: 60px;
+    }
+    .contactinfo{
+        width: 80%;
+        margin-top: 680px;
+        margin-left: 30px;
+    }
+}
